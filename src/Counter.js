@@ -40,7 +40,9 @@ decrement = () => {
 
         <div className = "count">
             <h1 className = "count-heading">Simple counter App</h1>
-            <p className = "count-display">Counter - {this.state.count}</p>
+              <div className = "count-show">
+                 <p className = "count-display">Counter - {this.state.count}</p>
+              </div>
         
 
             <div className = "count-buttons">

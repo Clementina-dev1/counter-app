@@ -13,37 +13,60 @@ code {
 }
 
 .card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1440px;
-  height: 100vh;
-  background-color: #F2F2F2;
+  position: relative;
+  width: 1440px;
+  height: 1024px; 
+  background: #F2F2F2;
 }
 
 
 .count {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;
-  background-color: #FFFFFF;
-  width: 70%;
+position: absolute;
+width: 934px;
+height: 619px;
+left: 253px;
+top: 203px;
+background: #FFFFFF;
+border-radius: 8px;
+}
+
+.count-heading{
+ position: absolute;
+width: 339px;
+height: 44px;
+left: 297px;
+top: 56px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+
+}
+
+.count-show{
+position: absolute;
+width: 449px;
+height: 94px;
+left: 242px;
+top: 151px;
+background: #0E042D;
+border-radius: 8px;
 }
 
 .count-display {
-  background-color: rgb(15, 24, 66);
-  border-radius: 10px;
-  padding: 0 40px;
-  color: white;
-  font-size: 4rem;
-  margin-bottom: 4rem;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 34px;
+position: absolute;
+width: 153px;
+height: 34px;
+left: 148px;
+top: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #FFFFFF
   
 }
 
@@ -65,5 +88,56 @@ code {
 .button-1:clicked, .button-2:clicked, .button-3:clicked {
   background-color: #003366;
   color: #fff;
+}
+
+.button-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 40px;
+  gap: 10px;
+  position: absolute;
+  width: 125px;
+  height: 35px;
+  left: 217px;
+  top: 352px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.button-2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 40px;
+gap: 10px;
+position: absolute;
+width: 160px;
+height: 35px;
+left: 365px;
+top: 352px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.button-3{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 40px;
+gap: 10px;
+position: absolute;
+width: 167px;
+height: 35px;
+left: 549px;
+top: 352px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
 }
 
